@@ -1,0 +1,37 @@
+ul li{
+    list-style: none;
+}
+ul{
+    margin-bottom: 0;
+}
+.width1200{
+    width: 1200px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+.floatLeft{
+    float: left;
+}
+.floatright{
+    float: right;
+}
+
+@font-face {
+    font-family: DINProLight;
+    src: url('../fonts/DINPro-Light.otf');
+}
+
+@font-face {
+    font-family: DINCondBlack;
+    src: url('../fonts/DINCond-Black.otf');
+}
+
+@font-face {
+    font-family: DINMedium;
+    src: url('../fonts/DIN-Medium.otf');
+}
+
+@font-face {
+    font-family: DINBold;
+    src: url('../fonts/DIN-Bold.otf');
+}

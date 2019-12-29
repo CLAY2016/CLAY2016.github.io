@@ -1,0 +1,1104 @@
+.containner {
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+    /* background: url('../images/首页/bg.png') no-repeat; */
+}
+.beijin{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.head {
+    width: 100%;
+    height: 110px;
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999999999;
+}
+
+.headInner .logo {
+    width: 16%;
+    height: 110px;
+    background: url('../images/首页/logo-main.png') no-repeat;
+
+}
+
+.headInner .logo img {
+    width: 100%;
+}
+
+.navUL {
+    width: calc(62% - 200px);
+}
+
+.navUL > li {
+    float: left;
+    width: 16.6%;
+    height: 110px;
+    text-align: center;
+    /* padding: 0 30px; */
+    line-height: 110px;
+    font-size: 16px;
+    font-family: Microsoft-Yahei;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+/* .navUL li.active{
+    color: #005bac;
+    background-color: #fff;
+} */
+.navUL li:hover {
+    color: #005bac;
+    background-color: #fff;
+}
+
+.searchInput {
+    width: 15%;
+    display: inline-block;
+    border: none;
+    position: relative;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 35px;
+    border: 1px #005bac solid;
+    position: relative;
+}
+
+.searchInput i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.searchInput input {
+    width: calc(100% - 20px);
+    height: 40px;
+    background: none;
+    position: relative;
+    border: none;
+    border-radius: 2px;
+    padding: 6px 30px 6px 12px !important;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    outline: none;
+    float: right;
+    color: #fff;
+}
+
+.searchInput ul {
+    width: 100%;
+    left: 0;
+    padding-left: 0;
+    position: absolute;
+    z-index: 99999;
+    min-width: 100%;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    /* box-shadow: 2px 2px 15px #eee; */
+    max-height: 240px;
+    min-height: 140px;
+    text-indent: 0;
+    top: 42px;
+    background: #fff;
+    margin: 0;
+    display: none;
+}
+
+.el-cascader-menu__item {
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #606266;
+    height: 34px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: none;
+    padding: 0 22px;
+    height: 46px;
+    line-height: 46px;
+    cursor: pointer;
+    list-style: none;
+    font-size: 14px;
+    color: #666;
+}
+.el-cascader-menu__item.active{
+    color:#005bac;
+    background-color: #f5f9fa;
+}
+.el-cascader-menu__item:hover {
+    background-color: #f5f9fa;
+    color:#005bac;
+}
+.el-cascader-menu__item span {
+    padding-right: 10px;
+}
+
+.el-cascader-menu__item img {
+    font-size: 14px;
+    color: #bfcbd9;
+    position: absolute;
+    right: 15px;
+    top: 3px;
+}
+.contactNumber {
+    width: 200px;
+    height: 110px;
+    background: url('../images/首页/pic-3.png') no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 10px;
+    padding-top: 25px;
+}
+
+.teleNumber {
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+    /* margin-bottom: 18px; */
+}
+
+.productCenterInner {
+    width: 300%;
+    position: absolute;
+    top: 110px;
+    left: -100%;
+    background: #fff;
+    overflow: hidden;
+    color: #333;
+    font-size: 16px;
+    padding-top: 24px;
+    padding-bottom: 54px;
+    line-height: normal;
+    display: none;
+}
+
+.productCenterInner .left {
+    width: 50%;
+}
+
+.leftInner {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.leftInner p {
+    line-height: 30px;
+    text-align: left;
+}
+
+.leftInner img {
+    width: 100%;
+}
+
+.productCenterInner .right {
+    width: 50%;
+}
+
+.line {
+    text-align: left;
+}
+
+.line > span {
+    width: 41px;
+    height: 3px;
+    background: #005bac;
+    display: inline-block;
+    line-height: 30px;
+
+}
+
+.productCenter:hover .productCenterInner {
+    display: block;
+}
+
+/*===========*/
+.productCenterTabbarCon {
+    overflow: hidden;
+    padding-top: 10px;
+    /*height: auto;*/
+}
+
+.productCenterTabbar {
+    width: 25%;
+    height: 1010px;
+}
+
+.productCenterTabbarUL {
+    width: 75%;
+}
+
+.productCenterTabbarUL li {
+    width: 33.33%;
+    float: left;
+    padding-right: 24px;
+    background: #fff;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.productCenterTabbarUL li:hover {
+    transform: translateY(-10px);
+}
+
+.productCenterTabbarUL li:nth-child(3n) {
+    padding-right: 0x;
+}
+
+.productCenterTabbarUL li .img {
+    width: 100%;
+    height: 345px;
+}
+
+.productCenterTabbarUL li .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.productCenterTabbarUL li .name {
+    width: 100%;
+    height: 85px;
+    background-color: #005bac;
+    line-height: 85px;
+    padding: 0 20px;
+    border-top: 5px #fffd00 solid;
+    box-sizing: border-box;
+    border-radius: 0 0 5px 5px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+}
+
+.productCenterTabbarUL li .name:hover {
+    text-decoration: underline
+}
+
+.productCenterTabbarUL li:last-child .more {
+    width: 100%;
+    background-color: #005bac;
+    height: 300px;
+    border-radius: 5px;
+    line-height: 300px;
+    text-align: center;
+}
+
+.productCenterTabbarUL li:last-child .more span {
+    font-size: 18px;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.productCenterName {
+    font-size: 30px;
+    color: #333;
+    font-weight: 600;
+}
+
+.productCenterEnglishName {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-family: DINMedium;
+}
+
+.TabbarUL li {
+    width: 162px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+
+}
+
+.TabbarUL li:hover {
+    background-color: #005bac;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*========*/
+.EngineeringCon {
+    padding-top: 30px;
+}
+
+.EngineeringBanner {
+    width: 100%;
+    overflow: hidden;
+}
+
+.EngineeringBanner li {
+    width: 16.66666%;
+    /* height: 670px; */
+    float: left;
+    position: relative;
+}
+
+.EngineeringBanner li img {
+    width: 100%;
+    height: 100%;
+}
+
+.EngineeringBanner li:hover .yellowDiv {
+    background-color: yellow;
+
+}
+
+.EngineeringBanner li:hover .yellowDiv .bigNum {
+    color: #005bac;
+    border-bottom: 7px solid #e8360d;
+}
+
+.EngineeringBanner li:hover .yellowDiv .description {
+    color: #005bac;
+}
+
+.yellowDiv {
+    height: 210px;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    padding: 0 43px;
+}
+
+.bigNum {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    border-bottom: 7px solid #fff;
+    font-family: DINBold;
+}
+
+.description {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.bannerMore, .bannerMore2 {
+    width: 370px;
+    height: 62px;
+    background: #005bac;
+    text-align: center;
+    line-height: 62px;
+    margin: 0 auto;
+    display: inline-block;
+    text-decoration: underline;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 130px;
+}
+
+.bannerMore2 {
+    margin-top: 100px;
+    margin-bottom: 115px;
+}
+
+/*=================*/
+.OurAdvantageCon {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 105px;
+    margin-bottom: 200px;
+
+}
+
+.OurAdvantageCon .left {
+    width: 30%;
+    overflow: hidden;
+
+}
+
+.OurAdvantageCon .center {
+    width: 40%;
+
+}
+
+.OurAdvantageCon .right {
+    width: 30%;
+
+}
+
+.OurAdvantageCon .center img {
+    width: 100%;
+}
+
+.bgIcon {
+    width: 100px;
+    position: relative;
+}
+
+.bgIconRignt {
+    width: calc(100% - 100px);
+    padding-top: 30px;
+    padding-left: 32px;
+}
+
+.bgIcon img {
+    width: 100%;
+}
+
+.iconName {
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.icondetail {
+    color: #333;
+    font-size: 14px;
+}
+
+.bgIconNumber {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: #fff;
+    /* font-weight: 600; */
+    font-family: DINBold;
+}
+
+/*============*/
+.NewsCenterUL li {
+    width: 150px;
+    text-align: center;
+    height: 55px;
+    line-height: 55px;
+    border: 2px #005bac solid;
+    font-size: 16px;
+    color: #333;
+    float: right;
+}
+
+.NewsCenterUL li:hover {
+    color: #005bac;
+}
+
+.NewsCenterUL li.active {
+    background: #005bac;
+    color: #fff;
+}
+
+.NewsCenterULCon {
+    position: relative;
+}
+
+.NewsCenterUL {
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
+.NewsCenterMain {
+    width: 100%;
+    /* height: 741px; */
+    padding-top: 60px;
+    overflow: hidden;
+    position: relative;
+    background: white;
+}
+
+.leftBlue {
+    width: 50%;
+    /*padding-top: 60px;*/
+}
+
+.leftBlue img {
+    width: 100%;
+}
+
+.news-cons {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.news-cons .width1200 {
+    height: 100%;
+}
+
+.news-cons .width1200 .left {
+    width: 480px;
+    margin-right: 100px;
+    float: left;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.news-cons .width1200 .left .imgCons {
+    width: 100%;
+}
+
+.news-cons .width1200 .left img {
+    width: 100%;
+    max-height: 100%;
+}
+
+.news-cons .width1200 .text {
+    padding: 38px 42px;
+    position: relative;
+}
+
+.news-cons .width1200 .text h3 {
+    font-size: 22px;
+    color: #333333;
+    padding-bottom: 24px;
+    border-bottom: 5px solid #005bac;
+    height: 48px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+.news-cons .width1200 .text p {
+    line-height: 32px;
+    color: #333333;
+    font-size: 16px;
+    text-indent: 16px;
+    min-height: 150px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.news-cons .width1200 .text .set {
+    /*width: 100%;*/
+    position: absolute;
+    bottom: 40px;
+    right: 42px;
+    left: 42px;
+}
+
+.news-cons .width1200 .right .text .set {
+    bottom: 26px;
+}
+
+.news-cons .width1200 .text .set span {
+    font-size: 18px;
+    color: #666666;
+}
+
+.news-cons .width1200 .text .set a {
+    text-decoration: underline;
+    color: #005bac;
+    font-size: 18px;
+    float: right;
+}
+
+.news-cons .width1200 .left .text {
+    background: white;
+
+}
+
+.news-cons .width1200 .right {
+    width: calc(100% - 580px);
+    float: left;
+    height: 100%;
+    /*background: pink;*/
+}
+
+.news-cons .width1200 .right .text {
+    background: #eeeeee;
+    width: calc(100% - 188px);
+    height: 100%;
+    float: left;
+    padding: 32px 42px;
+    border-radius: 0 5px 5px 0
+}
+
+.news-cons .width1200 .right ul {
+    height: 100%;
+}
+
+.news-cons .width1200 .right ul li {
+    height: 23.1%;
+    margin-bottom: 3.3%;
+    border-radius: 5px
+}
+
+.news-cons .width1200 .right ul li:last-child {
+    margin-bottom: 0;
+}
+
+.news-cons .width1200 .right ul li .imgCons {
+    width: 188px;
+    height: 100%;
+    float: left;
+}
+
+.width1200 .right ul li .imgCons img {
+    width: 100%;
+}
+
+.right ul li .imgCons.more {
+    line-height: 1;
+    text-align: center;
+    background: #005bac;
+    padding-top: 80px;
+}
+
+.right ul li .imgCons.more a {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.rightWhite {
+    padding-top: 60px;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+}
+
+/*==========*/
+
+.CooperationPartnerCon {
+    margin-top: 85px;
+    overflow: hidden;
+}
+
+.CooperationPartnerUL {
+    overflow: hidden;
+    border-top: 1px #cecece solid;
+    
+    padding-bottom: 115px;
+}
+
+.CooperationPartnerUL li {
+    width: 25%;
+    float: left;
+    height: 200px;
+    border-left: 1px #cecece solid;
+    border-bottom: 1px #cecece solid;
+}
+.CooperationPartnerUL li:nth-child(4n) {
+    border-right: 1px #cecece solid;
+}
+.CooperationPartnerUL li:last-child {
+    border-right: 1px #cecece solid;
+}
+
+.CooperationPartnerUL li img {
+    width: 100%;
+    height: 100%;
+}
+
+/*============*/
+.OnlineBookingCon {
+    width: 100%;
+    background-color: #eee;
+}
+
+.OnlineBookingUL {
+    width: 100%;
+    overflow: hidden;
+}
+
+.OnlineBookingUL li {
+    width: 25%;
+    float: left;
+    line-height: 16px;
+    margin-right: 12.5%;
+    border-bottom: 1px #333 solid;
+
+
+    /* margin-right: ; */
+}
+.OnlineBookingUL li:last-child{
+    margin-right: 0%;
+}
+
+.OnlineBookingUL li input {
+    width: calc(100% - 100px);
+    border: none;
+    outline: 0;
+    float: left;
+    background: none;
+}
+
+.OnlineBookingUL li .title {
+    width: 80px;
+    padding-left: 5px;
+    float: left;
+}
+.OnlineBookingUL li .title::before{
+    content: '*';
+    color: #222;
+    top: -1px;
+    position: relative;
+    left: -5px;
+}
+.OnlineBookingUL li:hover .title::before{
+    color: #005bac;
+}
+.borderBottom {
+    width: 100%;
+    height: 35px;
+}
+.borderBottom span{
+    color: #222;
+    font-size: 16px;
+    float: left;
+}
+
+.OnlineBookingInput {
+    /* overflow: hidden; */
+    margin-top: 71px;
+}
+
+.OnlineBookingLeft {
+    width: 50%;
+    /* overflow: hidden; */
+    height: 40px;
+    line-height: 40px;
+}
+
+.OnlineBookingLeft .titlte {
+    margin-right: 16px;
+    float: left;
+    font-size: 16px;
+    color: #222;
+}
+
+.OnlineBookingLeft .inputCon {
+    width: calc(100% - 110px);
+    position: relative;
+}
+
+.OnlineBookingLeft .inputCon input {
+    width: 100%;
+    outline: 0;
+    text-indent: 10px;
+    border: 0;
+}
+
+.OnlineBookingRight {
+    width: 50%;
+    line-height: 40px;
+    height: 40px;
+    overflow: hidden;
+    padding-left: 100px;
+
+}
+
+.OnlineBookingRight .titlte {
+    margin-right: 16px;
+
+}
+
+.OnlineBookingRight .inputCon {
+    width: calc(100% - 120px);
+}
+
+.OnlineBookingRight .inputCon li {
+    width: 20%;
+    line-height: 40px;
+    text-align: center;
+    color: #005bac;
+    background: #fff;
+    float: left;
+    margin-right: 6.5%;
+    cursor: pointer;
+}
+
+.OnlineBookingRight .inputCon li:last-child {
+    margin-right: 0;
+}
+
+.OnlineBookingRight .inputCon li.active {
+    background: #005bac;
+    color: #fff;
+}
+
+/*=================*/
+.footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    padding-top: 80px;
+}
+
+.footer .top {
+    overflow: hidden;
+}
+
+.footerLogo {
+    width: 200px;
+}
+
+.footerLogo img {
+    width: 100%;
+}
+
+.footerUL {
+    overflow: hidden;
+}
+
+.footerUL li {
+    margin-left: 70px;
+    text-align: right;
+    color: #999;
+    font-size: 16px;
+    float: right;
+    line-height: 40px;
+}
+
+.footerUL li:hover {
+    color: #fff;
+}
+
+.contactDetailsCon {
+    margin-top: 35px;
+    border-top: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    padding: 56px 0;
+}
+
+.ContactUs {
+    font-size: 22px;
+    color: #E8360D;
+    font-family: DINMedium;
+    margin-bottom: 0;
+}
+
+.telePhone {
+    font-size: 36px;
+    color: #fff;
+    font-family: DINMedium;
+}
+
+.address {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 37px;
+    margin-bottom: 21px;
+}
+
+.mailbox {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.LinksCon {
+    overflow: hidden;
+    padding-top: 29px;
+    padding-bottom: 56px;
+}
+
+.LinksCon .name {
+    font-size: 14px;
+    color: #fff;
+    width: 60px;
+}
+
+.LinksConUL {
+    overflow: hidden;
+    width: calc(100% - 60px);
+}
+
+.LinksConUL li {
+    padding: 0 16px;
+    position: relative;
+    float: left;
+}
+
+.LinksConUL li a {
+    font-size: 14px;
+    color: #999;
+}
+
+.LinksConUL li:hover a {
+    color: #fff;
+}
+
+.smallLine {
+    width: 1px;
+    height: 13px;
+    background-color: #999;
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    right: 0;
+}
+
+.fixFooterCon {
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.fixFooter {
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+    color: #666;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+}
+
+/*======*/
+.msgIcon {
+    position: fixed;
+    top: 330px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    display: inline-block;
+}
+
+.msgIcon i {
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #005bac;
+}
+
+.msgIcon:hover {
+    background: #005bac;
+}
+
+.msgIcon:hover i {
+    color: #fff;
+}
+
+.phoneIcon i {
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #005bac;
+}
+
+.phoneIcon:hover .phoneIconTip {
+    display: block;
+
+}
+
+.phoneIcon:hover {
+    background: #005bac;
+
+}
+
+.phoneIcon:hover i {
+    color: #fff;
+}
+
+.phoneIcon {
+    position: fixed;
+    top: 400px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    display: inline-block;
+}
+
+.phoneIconTip {
+    width: 210px;
+    height: 100px;
+    background: #005bac;
+    display: inline-block;
+    position: fixed;
+    top: 380px;
+    right: 90px;
+    display: none;
+}
+
+.phoneIconTipP1 {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 29px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.phoneIconTipP2 {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 8px;
+    display: inline-block;
+
+}
+.el-teacherSelectMenuCons{
+    z-index: 2015;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    display: none;
+    top: 50px;
+    left: 0;
+}
+.el-teacherCascader-menu{
+    display: inline-block;
+    float: left;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+    vertical-align: top;
+    height: 200px;
+    overflow: auto;
+    border-right: solid 1px #e4e7ed;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 6px 0;
+    border-radius: 5px;
+    width: 33.33%;
+    position: relative;
+}
+.el-teacherCascader-menu.first{
+    /* width: 28%; */
+    min-width: 0px;
+}
+.el-teacherCascader-menu.second{
+    /* width: 40%; */
+    min-width: 0px;
+}
+.el-teacherCascader-menu.third{
+    /* width: 32%; */
+    min-width: 0px;
+}
+.inputCon i {
+    position: absolute;
+    right: 15px;
+    top: 2px;
+    font-size: 20px;
+    color: #005bac;
+}
